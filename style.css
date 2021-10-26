@@ -1,0 +1,194 @@
+body{
+    background-color: #2cd4da;
+}
+
+ nav {
+    text-align: center;
+    }
+     nav #menu ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+     nav  ul li{
+    list-style: none;
+    display: inline-block;
+    min-width: 45px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    width: 16%;
+    }
+     nav  ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+   
+     nav  ul li a:hover{
+    color: #E7DA66;
+    }
+
+    .car{
+        text-align: center;
+    }
+
+    h1  {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p .examples {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul .what li{
+        font-family: 'Noto Serif JP', serif;
+        font-size: 30px;
+        text-align: center;
+        list-style:none;
+        padding:16px;
+        margin:8px
+    }
+   
+    div.car {
+        text-align: center;
+    }
+
+    .senden{
+        font-family: 'Noto Serif JP', serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    div.car1 {
+            text-align: center;
+         }
+          
+         .car2{
+           text-align: center;
+        
+    }
+    .car3 {
+        text-align: center;
+    }
+    div.price1 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .price2 {
+        text-align: center;
+    }
+
+    div.cars1 {
+      text-align: center;
+    }
+    .cars2 {
+      text-align: center;
+    }
+    .cars3 {
+      text-align: center;
+    }
+    .cars4{
+      text-align: center;
+    }
+    
+
+    /*====================================================================
+slick
+====================================================================*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .sliderArea {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  .sliderArea.w300 {
+    max-width: 300px;
+  }
+  .slick-slide {
+    margin: 0 5px;
+  }
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  .slick-prev, .slick-next {
+    z-index: 1;
+  }
+  .slick-prev:before, .slick-next:before {
+    color: black !important;
+  }
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  .slick-active {
+    opacity: 1;
+  }
+  .slick-current {
+    opacity: 1;
+  }
+  .thumb {
+    margin: 20px 0 0;
+  }
+  .thumb .slick-slide {
+    cursor: pointer;
+  }
+  .thumb .slick-slide:hover {
+    opacity: .7;
+  }
+  
+  /*====================================================================
+  .full-screen
+  ====================================================================*/
+  
+  .full-screen .slick-list {
+    overflow: visible;
+  }
+  .full-screen.slider {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 6%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#sec1,#sec2,#sec3{
+    font-family:'Kosugi Maru', sans-serif;
+}
+.effect-fade {
+    opacity : 0;
+    transform : translate(0, 45px);
+    transition : all 2000ms;
+    }
+    
+    .effect-fade.effect-scroll {
+    opacity : 1;
+    transform : translate(0, 0);
+    }
